@@ -124,6 +124,8 @@ function resetGame() {
     gameIsOver = false;
     playScore = 0;
     compScore = 0;
+    computerscore.textContent=0;
+    playscore.textContent=0;
     Result.textContent = '';
     computerEmoji.textContent = '';
     playerEmoji.textContent = '';
