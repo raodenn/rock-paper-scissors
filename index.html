@@ -3,13 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div id="result"></div>
-    <button id="rock"> click me</button>
-    <button id="paper"> click me</button>
-    <button id="scissors"> click me</button>
+    <header> Rock, Paper, Scissors</header>
+    <div class="container"></div>    
+        <div class="result">
+            <div class="playerScore">
+                <div>Player Score</div>
+                <div id="playerScoreValue">0</div>
+            </div>
+            <div class="compScore">
+                <div>Computer Score</div>
+                <div id="compScoreValue">0</div>
+            </div>
+        </div>
+
+        <div class="choice">
+            <div class="playerChoice">
+                <div>Player Choice</div>
+                <div id="playerChoiceValue"> </div>
+            </div>
+            <div class="compChoice">
+                <div>Computer Choice</div>
+                <div id="compChoiceValue"> </div>
+            </div>
+        </div>
+        <div id="winner"></div>
+        <div class="buttons">
+        <button id="rock" class="btn">
+            <div class="emoji">✊</div>        
+        </button>
+        <button id="paper" class="btn"> 
+            <div class="emoji">✋</div>
+        </button>
+        <button id="scissors" class="btn"> 
+            <div class="emoji">✌️</div>
+        </button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
